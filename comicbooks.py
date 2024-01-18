@@ -17,7 +17,7 @@ with open(csvpath, encoding='UTF-8') as csvfile:
     # Loop through looking for the comic book
     for row in csvreader:
         if row[0] == comic:
-            print(row[0] + " was published by "+ row(8) + "in  " + row[9])
+            print(row[0] + " was published by "+ row[8] + " in " + row[9])
 
             found = True
 if found is False:
@@ -26,3 +26,6 @@ if found is False:
             # Set variable to confirm we have found the comic book
 
     # If the comic book is never found, alert the user
+
+
+
